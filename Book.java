@@ -3,7 +3,9 @@ import java.util.HashMap;
 public class Book {
     private String isbn;
     private String title;
+    
     HashMap<String, Author> authorHashMap;
+    
     public HashMap<String, Author> getAuthorHashMap() {
         return authorHashMap;
     }
